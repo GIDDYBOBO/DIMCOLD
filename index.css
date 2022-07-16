@@ -57,9 +57,10 @@ a {
 }
 .title {
   position: absolute;
-  top:61%;
+  top:65%;
   left:50%;
   transform: translate(-50%,-50%);
+
 }
 .title h1 {
   color: gray;
