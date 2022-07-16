@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content​="width=device-width, initial-scale=1.0">
+    <titLe> DIMCOLD COMPANY </title>
+    <link rel="stylesheet" href="index.css"/>
+  </head>
+  <body>
+    <header>
+      <div class="logo"><a href="About.html"> DIMCOLD </a></div>
+      <div class="main" id="navLinks">
+      <a href="javascript:void(0)"
+  class="closebtn"
+  onclick="closeNav()">×</a>
+        <div class="mains">
+        <ul>
+          <li><a href="index.html" class="active"> Home </a>
+          <li><a href="About.html"> About </a>
+          <li><a href="Service.html"> Service </a>
+          <li><a href="Contact.html"> Contact </a>
+          <li><a href="#"> Blog </a>
+        </ul>
+        </div>
+
+      </div>
+      <div class="title">
+        <h3> Aspire to be inspired </h3><div class="line"></div>
+        <h1> DIMCOLD </h1>
+      </div>
+      <div class="button">
+        <a class="btn" href="Service.html"> Learn more </a>
+      </div>
+    <span style= "font-size:20px;cursor:
+pointer;color: whitesmoke;margin-left:210px; margin-top:20px; padding:5px"
+
+onclick="openNav()">&#9776; open</span>
+
+    </header>
+
+<script>
+function openNav() {
+document.getElementById("navLinks")
+ .style.height="100%";
+}
+
+function closeNav() {
+document.getElementById("navLinks").style.height = "0%";
+}
+</script>
+    <script>
+      var navLinks= document.getElementById("navLinks");
+      function showMenu() { navLinks.style.right="0";}
+      function hideMenu() { navLinks.style.right="-200px";}
+    </script>
+  </body>
+</html>
